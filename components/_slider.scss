@@ -1,0 +1,21 @@
+.slider__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 20%;
+
+}
+
+.slider__prev,
+.slider__next {
+  background: $black;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  color: $light-cream;
+  font-size: 1.5rem;
+}

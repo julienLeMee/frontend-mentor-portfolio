@@ -243,6 +243,27 @@ nav {
   padding: 4rem;
 }
 
+.slider__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.slider__prev,
+.slider__next {
+  background: #030303;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  color: #FFF7F0;
+  font-size: 1.5rem;
+}
+
 footer {
   display: flex;
   justify-content: space-between;

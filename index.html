@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/style.css">
+    <!-- Tiny slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Front-end Mentor | Single-page design portfolio</title>
   </head>
   <body>
@@ -76,6 +80,24 @@
       </div>
     </div>
 
+    <!-- Work (slider) -->
+    <!-- <div class="my-slider">
+      <div>
+        <img src="./ressources/phone.jpg" alt="work">
+      </div>
+      <div>
+        <img src="./ressources/phone.jpg" alt="work">
+      </div>
+      <div>
+        <img src="./ressources/phone.jpg" alt="work">
+      </div>
+    </div> -->
+
+      <div class="slider__nav">
+        <button class="slider__prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="slider__next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
     <!-- Contact -->
     <div class="contact__content">
       <div class="contact__title">
@@ -102,5 +124,6 @@
     </footer>
 
   <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
   </body>
 </html>
