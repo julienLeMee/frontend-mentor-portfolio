@@ -21,12 +21,33 @@
   .header__content {
     width: 90%;
     .header__title h1 {
-      font-size: $bold-small-font-size;
+      margin: 0 auto;
+      font-size: $bold-medium-font-size;
+      width: 80%;
     }
     .header__title p {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    .about__title h2 {
+      font-size: $bold-small-font-size!important;
+      width: 100%!important;
+    }
+    .about__title p {
+      width: 100%!important;
+    }
+    .btn__container {
+      width: 100%!important;
+    }
+  }
 
 }

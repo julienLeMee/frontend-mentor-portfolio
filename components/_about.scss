@@ -1,0 +1,25 @@
+.about__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  .about__title h2 {
+    margin: 20px auto;
+    font-size: $bold-medium-font-size;
+    width: 75%;
+  }
+  .about__title p {
+    font-size: $medium-font-size;
+    color: $medium-brown;
+    margin: 20px auto;
+    width: 75%;
+  }
+  .btn__container {
+    width: 75%;
+    margin: 20px auto;
+  }
+  img {
+    width: 100%;
+  }
+}

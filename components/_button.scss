@@ -12,3 +12,10 @@
     background-color: $galactic-blue;
   }
 }
+
+.btn--red {
+  background-color: $light-red;
+  &:hover {
+    background-color: $summer-yellow;
+  }
+}
