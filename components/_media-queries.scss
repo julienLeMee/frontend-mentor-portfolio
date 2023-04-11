@@ -10,6 +10,36 @@
     }
   }
 
+  .contact__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around!important;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: $black;
+    color: $light-cream;
+    text-align: center;
+    padding: 2rem;
+    .contact__title {
+      padding: 0!important;
+      display: flex;
+      flex-direction: column;
+      width: 80%!important;
+    }
+    .contact__title h2 {
+      font-size: $bold-small-font-size!important;
+      width: 100%!important;
+    }
+    .contact__title p {
+      width: 100%!important;
+      margin: 0 auto;
+    }
+    .btn__container {
+      padding: 0!important;
+    }
+  }
+
 }
 
 @media screen and (max-width: 768px) {

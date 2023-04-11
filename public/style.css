@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700&display=swap");
 nav {
   display: flex;
   justify-content: space-between;
@@ -61,6 +61,35 @@ nav {
   .header__content .header__title p {
     font-size: 18px;
   }
+  .contact__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #030303;
+    color: #FFF7F0;
+    text-align: center;
+    padding: 2rem;
+  }
+  .contact__content .contact__title {
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    width: 80% !important;
+  }
+  .contact__content .contact__title h2 {
+    font-size: 32px !important;
+    width: 100% !important;
+  }
+  .contact__content .contact__title p {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .contact__content .btn__container {
+    padding: 0 !important;
+  }
 }
 @media screen and (max-width: 768px) {
   nav {
@@ -109,7 +138,7 @@ nav {
 .grid__container .grid__item {
   color: #FFF7F0;
   border: 1px solid #7A746E;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -163,7 +192,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: 20px auto;
+  margin: 100px auto;
 }
 .about__content .about__title h2 {
   margin: 20px auto;
@@ -173,6 +202,7 @@ nav {
 .about__content .about__title p {
   font-size: 18px;
   color: #7A746E;
+  font-weight: 300;
   margin: 20px auto;
   width: 75%;
 }
@@ -182,6 +212,44 @@ nav {
 }
 .about__content img {
   width: 100%;
+}
+
+.contact__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 300px;
+  margin: 100px auto;
+  background-color: #030303;
+  border-radius: 8px;
+  color: #FFF7F0;
+}
+.contact__content .contact__title {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.contact__content .contact__title h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+.contact__content .contact__title p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.contact__content .btn__container {
+  padding: 4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 132px;
+  margin: 0 auto;
 }
 
 * {

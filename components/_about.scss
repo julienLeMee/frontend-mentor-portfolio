@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: 20px auto;
+  margin: 100px auto;
   .about__title h2 {
     margin: 20px auto;
     font-size: $bold-medium-font-size;
@@ -12,6 +12,7 @@
   .about__title p {
     font-size: $medium-font-size;
     color: $medium-brown;
+    font-weight: 300;
     margin: 20px auto;
     width: 75%;
   }
