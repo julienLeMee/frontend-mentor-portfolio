@@ -1,0 +1,11 @@
+.btn {
+  background-color: $black;
+  cursor: pointer;
+  color: $light-cream;
+  padding: 12px 24px;
+  border-radius: 25px;
+  border: none;
+  &:hover {
+    background-color: $galactic-blue;
+  }
+}
