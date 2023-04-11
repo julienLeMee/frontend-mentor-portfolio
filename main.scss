@@ -1,6 +1,7 @@
 @import './components/variables';
 @import './components/nav';
 @import './components/button';
+@import './components/header';
 
 * {
   margin: 0;
@@ -9,4 +10,5 @@
 
 body {
   background-color: $light-cream;
+  font-family: $font-family;
 }
