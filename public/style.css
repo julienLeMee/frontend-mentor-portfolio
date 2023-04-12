@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 77%;
-  height: 150px;
+  height: 180px;
   margin: 0 auto;
 }
 nav img {
@@ -133,6 +133,15 @@ nav img {
   .about__content .btn__container {
     width: 100% !important;
   }
+  .grid__container {
+    width: 100%;
+    margin: 75px auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    grid-auto-rows: minmax(200px, auto);
+    grid-auto-flow: dense;
+  }
   footer {
     width: 90% !important;
   }
@@ -238,18 +247,19 @@ nav img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  height: 300px;
-  margin: 100px auto;
+  width: 77%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
   background-color: #030303;
   border-radius: 8px;
   color: #FFF7F0;
 }
 .contact__content .contact__title {
-  padding: 4rem;
+  padding: 5rem;
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
 }
 .contact__content .contact__title h2 {
   font-size: 43px;
@@ -260,19 +270,20 @@ nav img {
   font-weight: 300;
 }
 .contact__content .btn__container {
-  padding: 4rem;
+  padding: 5rem;
 }
 
 .work__title {
   width: 100%;
-  font-size: 43px;
+  font-size: 32px;
   text-align: center;
-  margin: 50px auto;
+  padding-top: 28px;
+  margin-bottom: 70px;
 }
 
 .my-slider {
   width: 100%;
-  height: 360px;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -290,7 +301,7 @@ nav img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 75px;
 }
 
 .slider__prev, .slider__next {
@@ -299,7 +310,7 @@ nav img {
   padding: 20px;
   width: 70px;
   height: 70px;
-  margin: 0 10px;
+  margin-left: 30px;
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -313,9 +324,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  height: 132px;
+  width: 77%;
+  height: 180px;
   margin: 0 auto;
+}
+footer img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
 }
 
 * {

@@ -2,17 +2,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  height: 300px;
-  margin: 100px auto;
+  width: 77%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
   background-color: $black;
   border-radius: 8px;
   color: $light-cream;
   .contact__title {
-    padding: 4rem;
+    padding: 5rem;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
   }
   .contact__title h2 {
     font-size: $bold-medium-font-size;
@@ -23,6 +24,6 @@
     font-weight: 300;
   }
   .btn__container {
-    padding: 4rem;
+    padding: 5rem;
   }
 }
