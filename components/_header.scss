@@ -3,13 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  margin: 20px auto;
+  width: 77%;
+  margin: 40px auto;
   text-align: center;
   .header__title h1 {
     font-size: $bold-large-font-size;
     font-weight: bold;
     color: $black;
+    width: 100%;
   }
   .header__title p {
     font-size: $medium-font-size;
