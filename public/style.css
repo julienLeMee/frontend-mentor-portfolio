@@ -64,7 +64,7 @@ nav img {
     width: 90%;
   }
   .header__content .header__title h1 {
-    font-size: 40px;
+    font-size: 43px;
   }
   .header__content .header__title p {
     font-size: 18px;
@@ -108,7 +108,7 @@ nav img {
   }
   .header__content .header__title h1 {
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 43px;
     width: 80%;
   }
   .header__content .header__title p {
@@ -202,27 +202,36 @@ nav img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  margin: 100px auto;
+  width: 77%;
+  margin: 70px auto;
+}
+.about__content .about__title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
 }
 .about__content .about__title h2 {
-  margin: 20px auto;
-  font-size: 40px;
-  width: 75%;
+  font-size: 43px;
+  width: 80%;
 }
 .about__content .about__title p {
   font-size: 20px;
   color: #7A746E;
   font-weight: 300;
-  margin: 20px auto;
-  width: 75%;
+  width: 80%;
+  padding: 40px 0;
 }
 .about__content .btn__container {
-  width: 75%;
-  margin: 20px auto;
+  width: 80%;
+}
+.about__content .btn__container button {
+  width: 260px;
+  height: 65px;
 }
 .about__content img {
-  width: 100%;
+  width: 500px;
 }
 
 .contact__content {
@@ -243,7 +252,7 @@ nav img {
   width: 40%;
 }
 .contact__content .contact__title h2 {
-  font-size: 40px;
+  font-size: 43px;
   margin: 20px 0;
 }
 .contact__content .contact__title p {
@@ -256,7 +265,7 @@ nav img {
 
 .work__title {
   width: 100%;
-  font-size: 40px;
+  font-size: 43px;
   text-align: center;
   margin: 50px auto;
 }
