@@ -3,17 +3,24 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  height: 132px;
+  width: 77%;
+  height: 150px;
   margin: 0 auto;
+}
+nav img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
 }
 
 .btn {
   cursor: pointer;
   color: #FFF7F0;
-  padding: 15px 30px;
-  border-radius: 25px;
+  border-radius: 50px;
   border: none;
+  width: 250px;
+  height: 70px;
+  font-size: 18px;
 }
 
 .btn--black {

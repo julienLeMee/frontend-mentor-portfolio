@@ -1,9 +1,11 @@
 .btn {
   cursor: pointer;
   color: $light-cream;
-  padding: 15px 30px;
-  border-radius: 25px;
+  border-radius: 50px;
   border: none;
+  width: 250px;
+  height: 70px;
+  font-size: $medium-font-size;
 }
 
 .btn--black {
