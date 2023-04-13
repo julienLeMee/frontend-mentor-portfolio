@@ -1,18 +1,18 @@
-.header__content {
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 77%;
+  width: 100%;
   margin: 40px auto;
   text-align: center;
-  .header__title h1 {
+  h1 {
     font-size: $bold-large-font-size;
     font-weight: bold;
     color: $black;
     width: 100%;
   }
-  .header__title p {
+  p {
     font-size: $medium-font-size;
     color: $medium-brown;
     margin: 20px auto;

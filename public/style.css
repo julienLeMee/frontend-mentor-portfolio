@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700&display=swap");
 nav {
+  max-width: 1440px;
+  height: 132px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 77%;
-  height: 150px;
-  margin: 0 auto;
+}
+nav .nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 64px;
 }
 nav img {
   width: 70px;
@@ -37,90 +44,63 @@ nav img {
   background-color: #F6A560;
 }
 
-.header__content {
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 77%;
+  width: 100%;
   margin: 40px auto;
   text-align: center;
 }
-.header__content .header__title h1 {
+.hero h1 {
   font-size: 62px;
   font-weight: bold;
   color: #030303;
   width: 100%;
 }
-.header__content .header__title p {
+.hero p {
   font-size: 20px;
   color: #7A746E;
   margin: 20px auto;
   width: 75%;
 }
 
-@media screen and (max-width: 1100px) {
-  .header__content {
-    width: 90%;
-  }
-  .header__content .header__title h1 {
+@media screen and (max-width: 920px) {
+  .hero h1 {
     font-size: 43px;
   }
-  .header__content .header__title p {
+  .hero p {
     font-size: 18px;
-  }
-  .grid__container {
-    width: 100%;
-    margin: 75px auto;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
-    grid-auto-rows: minmax(200px, auto);
-    grid-auto-flow: dense;
   }
   .contact__content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around !important;
+    justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
-    background-color: #030303;
-    color: #FFF7F0;
-    text-align: center;
-    padding: 2rem;
+    padding: 3rem !important;
   }
   .contact__content .contact__title {
-    padding: 0 !important;
-    display: flex;
-    flex-direction: column;
-    width: 80% !important;
-  }
-  .contact__content .contact__title h2 {
-    font-size: 32px !important;
+    margin-top: 0 !important;
     width: 100% !important;
-  }
-  .contact__content .contact__title p {
-    width: 100% !important;
-    margin: 0 auto;
   }
   .contact__content .btn__container {
-    padding: 0 !important;
+    padding: 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  nav {
-    width: 90%;
+  nav, section, footer {
+    max-width: 90% !important;
   }
-  .header__content {
-    width: 90%;
-  }
-  .header__content .header__title h1 {
+  .hero h1 {
     margin: 0 auto;
     font-size: 43px;
     width: 80%;
   }
-  .header__content .header__title p {
+  .hero p {
     font-size: 18px;
   }
   .about__content {
@@ -142,17 +122,14 @@ nav img {
   .about__content .btn__container {
     width: 100% !important;
   }
-  footer {
-    width: 90% !important;
-  }
 }
 .grid__container {
   width: 100%;
   margin: 75px auto;
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-auto-rows: minmax(180px, auto);
   grid-auto-flow: dense;
 }
 .grid__container .grid__item {
@@ -211,7 +188,7 @@ nav img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 77%;
+  width: 100%;
   margin: 70px auto;
 }
 .about__content .about__title {
@@ -247,16 +224,16 @@ nav img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 77%;
-  height: 350px;
+  width: 100%;
+  height: 352px;
   margin: 0 auto;
   margin-top: 100px;
   background-color: #030303;
   border-radius: 8px;
   color: #FFF7F0;
+  padding: 5rem;
 }
 .contact__content .contact__title {
-  padding: 5rem;
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -268,9 +245,6 @@ nav img {
 .contact__content .contact__title p {
   font-size: 20px;
   font-weight: 300;
-}
-.contact__content .btn__container {
-  padding: 5rem;
 }
 
 .work__title {
@@ -337,11 +311,18 @@ footer img {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #FFF7F0;
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav, section, footer {
+  max-width: 80%;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

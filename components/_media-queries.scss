@@ -1,52 +1,28 @@
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 920px) {
 
-  .header__content {
-    width: 90%;
-    .header__title h1 {
-      font-size: $bold-medium-font-size;
-    }
-    .header__title p {
-      font-size: 18px;
-    }
+  .hero h1 {
+    font-size: $bold-medium-font-size;
   }
 
-  .grid__container {
-    width: 100%;
-    margin: 75px auto;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))!important;
-    grid-auto-rows: minmax(200px, auto);
-    grid-auto-flow: dense;
+  .hero p {
+    font-size: 18px;
   }
 
   .contact__content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around!important;
+    justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
-    background-color: $black;
-    color: $light-cream;
-    text-align: center;
-    padding: 2rem;
+    padding: 3rem!important;
     .contact__title {
-      padding: 0!important;
-      display: flex;
-      flex-direction: column;
-      width: 80%!important;
-    }
-    .contact__title h2 {
-      font-size: $bold-small-font-size!important;
+      margin-top: 0!important;
       width: 100%!important;
-    }
-    .contact__title p {
-      width: 100%!important;
-      margin: 0 auto;
     }
     .btn__container {
-      padding: 0!important;
+      padding: 20px;
     }
   }
 
@@ -54,20 +30,19 @@
 
 @media screen and (max-width: 768px) {
 
-  nav {
-    width: 90%;
+  nav, section, footer {
+    max-width: 90%!important;
   }
 
-  .header__content {
-    width: 90%;
-    .header__title h1 {
-      margin: 0 auto;
-      font-size: $bold-medium-font-size;
-      width: 80%;
-    }
-    .header__title p {
-      font-size: 18px;
-    }
+
+  .hero h1 {
+    margin: 0 auto;
+    font-size: $bold-medium-font-size;
+    width: 80%;
+  }
+
+  .hero p {
+    font-size: 18px;
   }
 
   .about__content {
@@ -88,10 +63,6 @@
     .btn__container {
       width: 100%!important;
     }
-  }
-
-  footer {
-    width: 90%!important;
   }
 
 }
