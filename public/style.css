@@ -126,6 +126,9 @@ nav img {
   .about__content .btn__container {
     width: 100% !important;
   }
+  .contact__title p {
+    font-size: 15px !important;
+  }
 }
 .grid__container {
   width: 100%;
