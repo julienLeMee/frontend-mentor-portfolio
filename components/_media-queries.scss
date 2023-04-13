@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -20,6 +21,9 @@
     .contact__title {
       margin-top: 0!important;
       width: 100%!important;
+      h2 {
+        font-size: $bold-small-font-size!important;
+      }
     }
     .btn__container {
       padding: 20px;

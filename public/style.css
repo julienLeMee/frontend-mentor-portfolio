@@ -78,6 +78,7 @@ nav img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -86,6 +87,9 @@ nav img {
   .contact__content .contact__title {
     margin-top: 0 !important;
     width: 100% !important;
+  }
+  .contact__content .contact__title h2 {
+    font-size: 32px !important;
   }
   .contact__content .btn__container {
     padding: 20px;
